@@ -35,7 +35,7 @@ type salesforce.User {
   }
   salesforce.Text CompanyName {
     apiName = "User.CompanyName"
-    length = 80
+    length = 90
     label = "Company Name"
     createable = true
     updateable = true
