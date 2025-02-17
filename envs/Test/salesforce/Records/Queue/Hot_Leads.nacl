@@ -1,0 +1,11 @@
+salesforce.Queue Hot_Leads {
+  fullName = "Hot_Leads"
+  doesSendEmailToMembers = false
+  name = "Hot"
+  queueMembers = {
+    users = {
+      user = "leoniv2@hotmail.com"
+    }
+  }
+  _alias = "Hot_Leads"
+}
