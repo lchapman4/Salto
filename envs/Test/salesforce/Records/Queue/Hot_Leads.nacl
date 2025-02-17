@@ -1,6 +1,6 @@
 salesforce.Queue Hot_Leads {
   fullName = "Hot_Leads"
   doesSendEmailToMembers = false
-  name = "Hot_Leads"
+  name = "Hot"
   _alias = "Hot_Leads"
 }
