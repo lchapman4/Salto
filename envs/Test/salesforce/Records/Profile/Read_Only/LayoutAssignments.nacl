@@ -700,6 +700,11 @@ salesforce.Profile Read_Only@s {
         layout = "User-User Layout"
       },
     ]
+    UserAlt_User_Profile_Layout@bss = [
+      {
+        layout = "UserAlt-User Profile Layout"
+      },
+    ]
     UserProvAccount_User_Provisioning_Account_Layout@bsss = [
       {
         layout = "UserProvAccount-User Provisioning Account Layout"
