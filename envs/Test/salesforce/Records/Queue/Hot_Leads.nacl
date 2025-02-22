@@ -1,9 +1,8 @@
-salesforce.Queue Cold_Leads {
-  fullName = "Cold_Leads"
-  description = "cold leads"
+salesforce.Queue Hot_Leads {
+  fullName = "Hot_Leads"
+  description = "Hot Leads"
   doesSendEmailToMembers = false
-  name = "Cold_Leads"
-  _alias = "Cold_Leads"
+  name = "Hot_Leads"
   queueMembers = {
     publicGroups = {
       publicGroup = "AllInternalUsers"
@@ -15,4 +14,5 @@ salesforce.Queue Cold_Leads {
   queueSobject = {
     sobjectType = "Lead"
   }
+  _alias = "Hot_Leads"
 }
