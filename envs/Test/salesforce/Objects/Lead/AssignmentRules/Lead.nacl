@@ -5,7 +5,7 @@ salesforce.AssignmentRules Lead {
       active = true
       ruleEntry = [
         {
-          assignedTo = "flyingflaco4@gmail.com"
+          assignedTo = "leoniv2@hotmail.com"
           assignedToType = "User"
           criteriaItems = [
             {
@@ -16,7 +16,7 @@ salesforce.AssignmentRules Lead {
           ]
         },
         {
-          assignedTo = "flyingflaco4@gmail.com"
+          assignedTo = "leoniv2@hotmail.com"
           assignedToType = "User"
           criteriaItems = [
             {
