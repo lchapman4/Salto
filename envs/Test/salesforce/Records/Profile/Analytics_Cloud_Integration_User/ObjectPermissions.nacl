@@ -63,24 +63,6 @@ salesforce.Profile Analytics_Cloud_Integration_User@s {
       object = "AppointmentTopicTimeSlot"
       viewAllRecords = true
     }
-    ApprovalSubmission = {
-      allowCreate = false
-      allowDelete = false
-      allowEdit = false
-      allowRead = true
-      modifyAllRecords = false
-      object = "ApprovalSubmission"
-      viewAllRecords = true
-    }
-    ApprovalWorkItem = {
-      allowCreate = false
-      allowDelete = false
-      allowEdit = false
-      allowRead = true
-      modifyAllRecords = false
-      object = "ApprovalWorkItem"
-      viewAllRecords = true
-    }
     Asset = {
       allowCreate = false
       allowDelete = false
@@ -430,24 +412,6 @@ salesforce.Profile Analytics_Cloud_Integration_User@s {
       allowRead = true
       modifyAllRecords = false
       object = "ContractLineItem"
-      viewAllRecords = true
-    }
-    ConversationApiLog = {
-      allowCreate = false
-      allowDelete = false
-      allowEdit = false
-      allowRead = true
-      modifyAllRecords = false
-      object = "ConversationApiLog"
-      viewAllRecords = true
-    }
-    ConversationApiLogObjSum = {
-      allowCreate = false
-      allowDelete = false
-      allowEdit = false
-      allowRead = true
-      modifyAllRecords = false
-      object = "ConversationApiLogObjSum"
       viewAllRecords = true
     }
     Coupon = {

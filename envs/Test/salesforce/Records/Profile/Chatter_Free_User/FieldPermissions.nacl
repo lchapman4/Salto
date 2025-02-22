@@ -51,37 +51,6 @@ salesforce.Profile Chatter_Free_User@s {
       IsRequiredResource = "ReadWrite"
       ParticipantServiceResourceId = "ReadWrite"
     }
-    ApprovalSubmission = {
-      Comments = "ReadWrite"
-      DoesSendApprovalEmail = "ReadWrite"
-      FlowOrchestrationInstanceId = "ReadWrite"
-      RelatedRecordId = "ReadWrite"
-      RelatedRecordObjectName = "ReadWrite"
-      Status = "ReadWrite"
-      SubmittedById = "ReadWrite"
-    }
-    ApprovalSubmissionDetail = {
-      ActionChannelName = "ReadWrite"
-      ActionContext = "ReadWrite"
-      ActionName = "ReadWrite"
-      ActionPerformedById = "ReadWrite"
-      ActionPerformerRole = "ReadWrite"
-      ApprovalSubmissionId = "ReadWrite"
-      ApprovalWorkItemId = "ReadWrite"
-      Comments = "ReadWrite"
-    }
-    ApprovalWorkItem = {
-      ApprovalConditionName = "ReadWrite"
-      ApprovalSubmissionId = "ReadWrite"
-      AssignedToId = "ReadWrite"
-      Comments = "ReadWrite"
-      FlowOrchestrationWorkItemId = "ReadWrite"
-      RelatedRecordId = "ReadWrite"
-      RelatedRecordObjectName = "ReadWrite"
-      ReviewedById = "ReadWrite"
-      ReviewedDate = "ReadWrite"
-      Status = "ReadWrite"
-    }
     Asset = {
       AccountId = "ReadWrite"
       AssetLevel = "NoAccess"
@@ -343,7 +312,6 @@ salesforce.Profile Chatter_Free_User@s {
       AssistantName = "ReadWrite"
       AssistantPhone = "ReadWrite"
       Birthdate = "ReadWrite"
-      BuyerAttributes = "NoAccess"
       CleanStatus = "ReadOnly"
       Department = "ReadWrite"
       Description = "ReadWrite"

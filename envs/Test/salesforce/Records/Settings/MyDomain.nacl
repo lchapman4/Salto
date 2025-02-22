@@ -15,7 +15,7 @@ salesforce.MyDomainSettings {
   instancedUrlRedirectHandling = "NoRedirect"
   isFirstPartyCookieUseRequired = false
   logRedirections = false
-  myDomainName = "acme-6f-dev-ed"
+  myDomainName = "acme52-dev-ed"
   myDomainSuffix = "MySalesforce"
   onboardCustomerSpecificSuffix = false
   redirectForceComSiteUrls = true

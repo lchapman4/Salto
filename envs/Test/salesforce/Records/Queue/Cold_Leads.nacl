@@ -1,7 +1,0 @@
-salesforce.Queue Cold_Leads {
-  fullName = "Cold_Leads"
-  description = "cold leads"
-  doesSendEmailToMembers = false
-  name = "Cold_Leads"
-  _alias = "Cold_Leads"
-}

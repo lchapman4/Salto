@@ -1,6 +1,6 @@
 salesforce.SecuritySettings {
   canUsersGrantLoginAccess = true
-  enableAdminLoginAsAnyUser = true
+  enableAdminLoginAsAnyUser = false
   enableAuditFieldsInactiveOwner = false
   enableAuraSecureEvalPref = true
   enableCoepHeader = false
@@ -77,7 +77,7 @@ salesforce.SecuritySettings {
     referrerPolicyDirective = "origin-when-cross-origin"
     requireHttpOnly = false
     sendCspForUncommonClients = false
-    sessionTimeout = "TwentyFourHours"
+    sessionTimeout = "TwoHours"
     sidToken3rdPartyAuraApp = false
     skipSFAWhenMFADirectUILogin = false
     terminateUserSessionsWhenAdminResetsPassword = false
