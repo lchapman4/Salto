@@ -1,0 +1,18 @@
+salesforce.Queue Hot_Leads {
+  fullName = "Hot_Leads"
+  description = "Hot Leads"
+  doesSendEmailToMembers = false
+  name = "Hot_Leads"
+  queueMembers = {
+    publicGroups = {
+      publicGroup = "AllInternalUsers"
+    }
+    users = {
+      user = "leoniv2@hotmail.com"
+    }
+  }
+  queueSobject = {
+    sobjectType = "Lead"
+  }
+  _alias = "Hot_Leads"
+}

@@ -1,7 +1,7 @@
 salesforce.AssignmentRules Lead {
   assignmentRule = [
     {
-      fullName = "Standard"
+      fullName = "Score_Rule"
       active = true
       ruleEntry = [
         {
