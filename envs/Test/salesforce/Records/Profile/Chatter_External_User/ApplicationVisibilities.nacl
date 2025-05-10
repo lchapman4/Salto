@@ -10,11 +10,6 @@ salesforce.Profile Chatter_External_User@s {
       default = false
       visible = false
     }
-    standard__Approvals = {
-      application = "standard__Approvals"
-      default = false
-      visible = false
-    }
     standard__Chatter = {
       application = "standard__Chatter"
       default = true
@@ -27,11 +22,6 @@ salesforce.Profile Chatter_External_User@s {
     }
     standard__Content = {
       application = "standard__Content"
-      default = false
-      visible = false
-    }
-    standard__DataGovernanceConsole = {
-      application = "standard__DataGovernanceConsole"
       default = false
       visible = false
     }
@@ -82,11 +72,6 @@ salesforce.Profile Chatter_External_User@s {
     }
     standard__LightningService = {
       application = "standard__LightningService"
-      default = false
-      visible = false
-    }
-    standard__MSJApp = {
-      application = "standard__MSJApp"
       default = false
       visible = false
     }

@@ -1,39 +1,11 @@
 salesforce.AssignmentRules Lead {
   assignmentRule = [
     {
-      fullName = "Score_Rule"
+      fullName = "Standard"
       active = true
       ruleEntry = [
         {
-          assignedTo = salesforce.Queue.instance.Cold_Leads
-          assignedToType = "Queue"
-          criteriaItems = [
-            {
-              field = salesforce.Lead.field.Score__c
-              operation = "lessOrEqual"
-              value = "5"
-            },
-          ]
-        },
-        {
-          assignedTo = salesforce.Queue.instance.Hot_Leads
-          assignedToType = "Queue"
-          criteriaItems = [
-            {
-              field = salesforce.Lead.field.Score__c
-              operation = "greaterThan"
-              value = "5"
-            },
-          ]
-        },
-      ]
-    },
-    {
-      fullName = "Standard"
-      active = false
-      ruleEntry = [
-        {
-          assignedTo = "leoniv2@hotmail.com"
+          assignedTo = "flyingflaco4@gmail.com"
           assignedToType = "User"
           criteriaItems = [
             {
@@ -44,7 +16,7 @@ salesforce.AssignmentRules Lead {
           ]
         },
         {
-          assignedTo = "leoniv2@hotmail.com"
+          assignedTo = "flyingflaco4@gmail.com"
           assignedToType = "User"
           criteriaItems = [
             {

@@ -15,7 +15,7 @@ salesforce.AnalyticsSettings {
   enableAutoCompleteCombo = true
   enableAzureDLGen2OutputConnector = false
   enableCreateLegacyDataflows = true
-  enableCrtSetupLightningUiPref = true
+  enableCrtSetupLightningUiPref = false
   enableDashboardComponentSnapshot = false
   enableDashboardFlexiTable = true
   enableDataCloudReportingPref = true

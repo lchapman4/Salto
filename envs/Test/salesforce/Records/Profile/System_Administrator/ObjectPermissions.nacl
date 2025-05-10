@@ -63,24 +63,6 @@ salesforce.Profile Admin {
       object = "AppointmentTopicTimeSlot"
       viewAllRecords = true
     }
-    ApprovalSubmission = {
-      allowCreate = true
-      allowDelete = true
-      allowEdit = true
-      allowRead = true
-      modifyAllRecords = true
-      object = "ApprovalSubmission"
-      viewAllRecords = true
-    }
-    ApprovalWorkItem = {
-      allowCreate = true
-      allowDelete = true
-      allowEdit = true
-      allowRead = true
-      modifyAllRecords = true
-      object = "ApprovalWorkItem"
-      viewAllRecords = true
-    }
     Asset = {
       allowCreate = true
       allowDelete = true
@@ -160,33 +142,6 @@ salesforce.Profile Admin {
       allowRead = true
       modifyAllRecords = true
       object = "AuthorizationFormText"
-      viewAllRecords = true
-    }
-    BatchJob = {
-      allowCreate = true
-      allowDelete = true
-      allowEdit = true
-      allowRead = true
-      modifyAllRecords = true
-      object = "BatchJob"
-      viewAllRecords = true
-    }
-    BatchJobPart = {
-      allowCreate = true
-      allowDelete = true
-      allowEdit = true
-      allowRead = true
-      modifyAllRecords = true
-      object = "BatchJobPart"
-      viewAllRecords = true
-    }
-    BatchJobPartFailedRecord = {
-      allowCreate = true
-      allowDelete = true
-      allowEdit = true
-      allowRead = true
-      modifyAllRecords = true
-      object = "BatchJobPartFailedRecord"
       viewAllRecords = true
     }
     BusinessBrand = {

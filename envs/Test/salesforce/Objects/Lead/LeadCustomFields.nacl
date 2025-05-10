@@ -79,18 +79,4 @@ type salesforce.Lead {
     caseSensitive = false
     queryable = true
   }
-  salesforce.Number Score__c {
-    apiName = "Lead.Score__c"
-    description = "Score for Leads"
-    externalId = false
-    inlineHelpText = "0-10. Anything >5 goes into hot leads queue"
-    label = "Score"
-    precision = 18
-    _required = true
-    scale = 0
-    unique = false
-    createable = true
-    updateable = true
-    queryable = true
-  }
 }
